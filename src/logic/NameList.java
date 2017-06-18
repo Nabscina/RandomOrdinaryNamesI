@@ -30,7 +30,7 @@ public class NameList {
                 list.add(reader.nextLine().replaceAll("[ 0123456789.]", ""));
             }
         } catch (Exception e) {
-            System.out.println("ERROR");
+            System.out.println("ERROR: Could not read files. :(");
         }
     }
 
